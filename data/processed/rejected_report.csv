@@ -1,0 +1,4 @@
+id,text,source,clean_text,is_valid,audit_reason
+2,bata tita ra bata poku lori ayelujara owo kekere sanwo,ecommerce_spam,bata tita ra bata poku lori ayelujara owo kekere sanwo,False,LOW_PARTICLE_DENSITY_SPAM
+4,### === >>> ERROR 404 !!! @@@ ojúlówó oúnjẹ ***,broken_crawler,### === >>> ERROR 404 !!! @@@ ojúlówó oúnjẹ ***,False,HIGH_SYMBOL_NOISE
+5,Ilu Eko je ilu nla ti awon eniyan gbe pupo.,unaccented_forum,Ilu Eko je ilu nla ti awon eniyan gbe pupo.,False,LOW_PARTICLE_DENSITY_SPAM

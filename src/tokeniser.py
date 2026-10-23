@@ -18,7 +18,7 @@ def build_yoruba_tokeniser(nlp):
     ] + [r"(?<=[0-9])-(?=[0-9])"]
     
     infix_re = compile_infix_regex(tuple(infixes))
-    nlp.tokeniser.infix_finditer = infix_re.finditer
+    nlp.tokenizer.infix_finditer = infix_re.finditer
     return nlp
 
 def create_yoruba_pipeline():

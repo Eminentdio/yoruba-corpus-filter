@@ -17,7 +17,7 @@ def normalise_yoruba_text(text: str) -> str:
     cleaned = re.sub(r"\s+", " ", cleaned).strip()
     
     # 3. Canonical Composition (NFC)
-    return unicodedata.normalise("NFC", cleaned)
+    return unicodedata.normalize("NFC", cleaned)
 
 def audit_diacritic_density(text: str) -> float:
     """
